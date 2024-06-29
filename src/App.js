@@ -24,7 +24,7 @@ function App() {
       <input required type='text' value={username} onChange={(e) => setUsername(e.target.value)} />
       <br />
       <label>Password</label>
-      <input required type='text' value={password} onChange={(e) => setPassword(e.target.value)} />
+      <input required type='password' value={password} onChange={(e) => setPassword(e.target.value)} />
       <br />
       <button>Submit</button>
       <br />
