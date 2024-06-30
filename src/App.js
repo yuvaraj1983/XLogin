@@ -12,7 +12,7 @@ function App() {
       setWelcomeMsg(`Invalid username or password`);
       
     } else {
-      setWelcomeMsg(`Welcome ${username}!`)
+      setWelcomeMsg(`Welcome, ${username}!`)
     }
    
   }
